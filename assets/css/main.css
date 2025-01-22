@@ -993,7 +993,14 @@ section,
 }
 
 .portfolio .portfolio-item {
-  position: relative;
+
+  border-color:grey;
+  border-radius:60px;
+  border-style:solid;
+  border-width:1px;
+  padding:8px;
+  margin:10px;
+
 }
 
 .portfolio .portfolio-item .portfolio-info {
@@ -1006,6 +1013,7 @@ section,
   transition: all ease-in-out 0.3s;
   background: color-mix(in srgb, var(--background-color), transparent 10%);
   padding: 15px;
+
 }
 
 .portfolio .portfolio-item .portfolio-info h4 {
