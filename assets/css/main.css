@@ -995,7 +995,7 @@ section,
 .portfolio .portfolio-item {
 
   border-color:grey;
-  border-radius:60px;
+  border-radius:20px;
   border-style:solid;
   border-width:1px;
   padding:8px;
@@ -1049,6 +1049,10 @@ section,
   right: 14px;
   font-size: 28px;
 }
+.portfolio .portfolio-item[data-gallery="portfolio-gallery-product"] {
+  border: none;
+}
+
 
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
